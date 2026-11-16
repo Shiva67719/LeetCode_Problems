@@ -13,7 +13,6 @@ class Solution:
             mid=(s+e)//2
             if nums[mid]==target:
                 return mid
-            #aditya loves ashritha
             elif nums[mid]> target:
                 e=mid-1
             else:
