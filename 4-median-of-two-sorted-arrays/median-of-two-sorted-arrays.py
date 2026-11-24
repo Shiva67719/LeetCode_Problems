@@ -7,7 +7,7 @@ class Solution:
         if n%2==1:
             return arr[mid]
         else:
-            #  a=arr[n//2-1]
-            #  b=arr[n//2]
-            #  return(a+b)/2
-            return (arr[mid-1]+arr[mid])/2
+             a=arr[n//2-1]
+             b=arr[n//2]
+             return(a+b)/2
+            #return (arr[mid-1]+arr[mid])/2
